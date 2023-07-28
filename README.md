@@ -18,7 +18,7 @@
   </tr>
   <tr>
     <td>이주의 문제</td>
-    <td><a href="https://github.com/tony9402/baekjoon/blob/main/picked.md"><b>[이주의 문제]</b></td>
+    <td><a href="https://github.com/PythonAlgoStudy/Algo_Study/blob/main/picked.md"><b>[이주의 문제]</b></td>
   </tr>
   <tr>
     <td>언어</td>
@@ -46,12 +46,12 @@
 - 매주 일요일이 PR 마감 시간이나, 일요일까지 문제를 다 못 풀었다면 코드 리뷰를 위해 토요일에 미리 PR을 보내는 것을 권장
 
 ### 문제 풀이
-- <a href="https://github.com/tony9402/baekjoon/blob/main/picked.md"><b>[이주의 문제]</b></a>를 풀이한다.
-- 1문제는 난이도 높은 문제로 선정하며, 필수는 아니다.
+- <a href="https://github.com/PythonAlgoStudy/Algo_Study/blob/main/picked.md"><b>[이주의 문제]</b></a>를 풀이한다.
+- 추가 1문제는 난이도 높은 문제로 선정하며, 필수는 아니다.
 <br/>
 
 ## 🗓 일정표
-- 5번째 문제는 필수는 아니며 선택에 따라 풀이한다.
+- 5번째 문제는 선택에 따라 풀이한다.
 <br>
 <details>
   <summary>일정표 열기</summary>

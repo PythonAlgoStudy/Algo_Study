@@ -37,13 +37,13 @@ def blow_up(cur_time) -> None:
                     bomb[nexty][nextx] = 0
 
 
-def print_bomb():
+def print_bomb() -> None:
     for i in range(R):
         result: List[str] = ["O" if bomb[i][j] != 0 else "." for j in range(C)]
         print("".join(result))
 
 
-for i in range(1, N + 1):
+for i in range(2, N + 1):
     if i % 2 == 0:
         put_bomb(i)
     else:

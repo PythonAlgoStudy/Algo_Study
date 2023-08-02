@@ -4,7 +4,7 @@ import sys
 
 def bfs(arr, start):
     visited = [start]  # 방문 배열 초기화
-    friends = [0] * (N + 1)  # start와 친구들의 거리(관계)
+    friends = [0] * (N + 1)  # 친구들 마다 베이컨
     q = deque()
     q.append(start)
 
@@ -15,7 +15,7 @@ def bfs(arr, start):
                 friends[friend] = friends[cur] + 1
                 visited.append(friend)
                 q.append(friend)
-    return sum(friends)
+    return sum(friends) # i의 베이컨 합
 
 
 input = sys.stdin.readline

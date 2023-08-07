@@ -19,7 +19,6 @@ for k in range( n):
   for a in range( n):
     for b in range( n):
         graph[a][b] = min(graph[a][b],graph[a][k]+graph[k][b])
-        graph[b][a] = min(graph[a][b],graph[a][k]+graph[k][b])
 
 
 answer = []
@@ -28,7 +27,7 @@ for a in range(n):
 
 minNode = 0
 for i in range(len(answer)-1):
-  if(answer[i]>answer[i+1]):
+  if(answer[minNode]>answer[i+1]):
     minNode = i+1
     
     

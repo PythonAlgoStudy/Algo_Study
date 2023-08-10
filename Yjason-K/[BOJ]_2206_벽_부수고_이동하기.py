@@ -13,7 +13,7 @@ def bfs():
   while q:
     x, y, wall = q.popleft()
     
-    # (2,2) 행렬인 경우
+    # (N, M)에 도착하는 경우
     if x == N-1 and y == M-1:
       return visited[x][y][wall] # 도착했을 때의 거리를 반환합니다.
 
@@ -21,12 +21,12 @@ def bfs():
       nx, ny = x + dx, y + dy
       
       if 0 <= nx < N and 0 <= ny < M:
-        # 벽이 없는 경우
+        # 벽이 없는 경우 (벽을 부수지 않고 이동)
         if arr[nx][ny] == 0 and visited[nx][ny][wall] == 0:
           visited[nx][ny][wall] = visited[x][y][wall] + 1
           q.append([nx, ny, wall])
         
-        # 벽이 있고 부술 수 있는 경우
+        # 벽이 있고 부술 수 있는 경우 (벽을 부수고 이동)
         elif arr[nx][ny] == 1 and wall == 1:
           visited[nx][ny][0] = visited[x][y][wall] + 1
           q.append([nx, ny, 0])

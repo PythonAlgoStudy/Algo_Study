@@ -1,5 +1,5 @@
 # n+1 개의 i와 n개의 o 로 이루어짐
-# Pn은 i o 가 교대로 나오는 문자열
+# Pn은 i o 가 교대로 나오는 문자열 
 n = int(input())
 m = int(input())
 s = input()

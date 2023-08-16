@@ -16,22 +16,19 @@ def is_possible(target):
         else:
             s = arr[i]
             cnt += 1
-
-        if cnt > m:
-            return False
+            if cnt > m:
+                return False  
     return True
 
 while left <= right:
     mid = (left + right) // 2
 
     # 해당 블루레이 크기가
-    # 가능하다면
+    # 가능하다면 답을 갱신하고, 더 작은 크기로 탐색
     if is_possible(mid):
-        # 답을 갱신하고, 더 작은 크기로 탐색
         ans = min(ans, mid)
         right = mid - 1
-    # 불가능하다면
+    # 불가능하다면 더 큰 크기에서 탐색
     else:
-        # 더 큰 크기에서 탐색
         left = mid + 1
 print(ans)

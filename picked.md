@@ -1,6 +1,3 @@
-## week1: 23.07.30 ~ 23.08.05
-
-| 주차 | 날짜 | 문제 유형 | 문제 | 난이도 | 비고 |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| week1 | 23.07.30 ~ 23.08.05 | 그래프 탐색 | <p align=left> [토마토](https://www.acmicpc.net/problem/7576) <br> [봄버맨](https://www.acmicpc.net/problem/16918) <br> | <img height="20px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> <br> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> <br>| <br><br><br><br> |
-  </details>
+| 주차 | 날짜 | 문제 유형 | 문제번호| 문제 | 난이도 | 비고 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| week4 | 23.08.14 ~ 23.08.20 | 이분탐색 <br> 투포인터 <br> DP <br> 시뮬레이션션 <br>| [2343](https://www.acmicpc.net/problem/2343) <br> [2470](https://www.acmicpc.net/problem/2470) <br> [14500](https://www.acmicpc.net/problem/14500) <br> [13459](https://www.acmicpc.net/problem/13459) <br>| <p align=left> [기타 레슨](https://www.acmicpc.net/problem/2343) <br> [두 용액](https://www.acmicpc.net/problem/2470) <br> [알약](https://www.acmicpc.net/problem/4811) <br> [구슬 탈출](https://www.acmicpc.net/problem/13459) <br> | <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> <br> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> <br> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> <br> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> <br>| <br><br><br><br> |

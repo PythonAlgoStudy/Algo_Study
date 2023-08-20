@@ -56,9 +56,10 @@
 <details>
   <summary>일정표 열기</summary>
  
-| 주차 | 날짜 | 문제 유형 | 문제 | 난이도 | 비고 |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| week1 | 23.07.30 ~ 23.08.05 | 그래프 탐색 | <p align=left> [토마토](https://www.acmicpc.net/problem/7576) <br> [봄버맨](https://www.acmicpc.net/problem/16918) <br> | <img height="20px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> <br> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> <br>| <br><br><br><br> |
+| 주차 | 날짜 | 문제 유형 | 문제번호 | 문제 | 난이도 | 비고 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| week2 | 23.07.31 ~ 23.08.06 | 그래프 탐색 | [2468](https://www.acmicpc.net/problem/2468) <br> [1389](https://www.acmicpc.net/problem/1389) <br> [2206](https://www.acmicpc.net/problem/2206) <br> [1103](https://www.acmicpc.net/problem/1103) <br>| <p align=left> [안전 영역](https://www.acmicpc.net/problem/2468) <br> [케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389) <br> [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) <br> [게임](https://www.acmicpc.net/problem/1103) <br> | <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> <br> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> <br> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> <br> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> <br>| <br><br><br><br> |
+| week1 | 23.07.28 ~ 23.07.30 | 그래프 탐색 | [7576](https://www.acmicpc.net/problem/7576) <br> [16918](https://www.acmicpc.net/problem/16918) <br> |<p align=left> [토마토](https://www.acmicpc.net/problem/7576) <br> [봄버맨](https://www.acmicpc.net/problem/16918) <br> | <img height="20px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> <br> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> <br>| <br><br><br><br> |
   </details>
 <br/>
 

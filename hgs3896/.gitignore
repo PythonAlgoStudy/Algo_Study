@@ -1,0 +1,9 @@
+# Mac Finder Cache
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class

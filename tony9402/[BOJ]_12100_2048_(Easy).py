@@ -46,15 +46,19 @@ def get_max(arr: List[List[int]]) -> int:
     return max((max(x) for x in arr))
 
 
-def solution(arr: List[List[int]], move_cnt: int) -> int:
+def dfs(arr: List[List[int]], move_cnt: int) -> int:
     return (
         get_max(arr)
         if move_cnt == 5
-        else max((solution(move(arr, k), move_cnt + 1) for k in range(4)))
+        else max((dfs(move(arr, k), move_cnt + 1) for k in range(4)))
     )
+
+
+def solution(arr: List[List[int]]) -> int:
+    return dfs(arr, 0)
 
 
 if __name__ == "__main__":
     N = int(input())
     arr: List[List[int]] = [list(map(int, input().split())) for i in range(N)]
-    print(solution(arr, 0))
+    print(solution(arr))

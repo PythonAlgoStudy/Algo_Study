@@ -13,7 +13,7 @@ answer = 0  # 정답
 i = 1
 # 문자열을 한번만 순회하면서 패턴 찾기
 while i < M - 1:
-    if S[i - 1] == "I" and S[i] == "O" and S[i + 1] == "I":
+    if S[i-1:i+2] == 'IOI':
         count += 1
         if count == N:  # n개의 패턴을 찾았다면
             count -= 1  # 패턴이 겹치게 되므로 하나를 빼준다

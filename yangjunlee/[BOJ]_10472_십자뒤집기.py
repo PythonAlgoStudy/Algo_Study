@@ -1,12 +1,14 @@
 boards = []
 
+# 모든 3*3 보드 생성
 for i in range(2**9):
     board = [[0 for _ in range(3)] for _ in range(3)]
     for j in range(9):
         if i&(1<<j):
             board[j//3][j%3]=1
     boards.append(board)
- 
+
+# 십자뒤집기 함수
 def flip(board, x, y):
     dx, dy = [0,0,0,1,-1], [0,1,-1,0,0]
     board2 = [[board[i][j] for j in range(3)] for i in range(3)]
@@ -16,7 +18,8 @@ def flip(board, x, y):
     return board2
  
 graph = [[0 for _ in range(2**9)] for _ in range(2**9)]
- 
+
+#십자뒤짐기로 연결되는 보드들 사이 인접 리스트 만들기
 for board in boards:
     for i in range(3):
         for j in range(3):
@@ -24,6 +27,7 @@ for board in boards:
        
 N = int(input())
 
+#bfs
 def bfs(start):
     visited = [0 for _ in range(2**9)]
     visited[start] = 1
@@ -38,7 +42,7 @@ def bfs(start):
                 visited[i]=count+1
                 que.append(i)
     
-
+#입력 받은 보드에서 bfs로 0번 보드(... ... ...) 로 가는 최단거리 찾기
 for i in range(N):
     board = []
     for j in range(3):

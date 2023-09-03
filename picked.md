@@ -1,6 +1,3 @@
-## week1: 23.07.30 ~ 23.08.05
-
-| 주차 | 날짜 | 문제 유형 | 문제 | 난이도 | 비고 |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| week1 | 23.07.30 ~ 23.08.05 | 그래프 탐색 | <p align=left> [토마토](https://www.acmicpc.net/problem/7576) <br> [봄버맨](https://www.acmicpc.net/problem/16918) <br> | <img height="20px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> <br> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> <br>| <br><br><br><br> |
-  </details>
+| 주차 | 날짜 | 문제 유형 | 문제번호| 문제 | 난이도 | 비고 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| week5 | 23.08.21 ~ 23.08.27 | 그래프 <br> 시뮬레이션 <br> 누적합 <br> 백트래 <br> DP <br>| [10472](https://www.acmicpc.net/problem/10472) <br> [14503](https://www.acmicpc.net/problem/14503) <br> [10800](https://www.acmicpc.net/problem/10800) <br> [12100](https://www.acmicpc.net/problem/12100) <br> [1328](https://www.acmicpc.net/problem/1328) <br> | <p align=left> [십자뒤집기](https://www.acmicpc.net/problem/10472) <br> [로봇 청소기](https://www.acmicpc.net/problem/14503) <br> [컬러볼](https://www.acmicpc.net/problem/10800) <br> [2048](https://www.acmicpc.net/problem/12100) <br> [고층빌딩](https://www.acmicpc.net/problem/1328) <br> | <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> <br> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> <br> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> <br> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> <br> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/16.svg"/> <br>| <br><br><br><br> |
